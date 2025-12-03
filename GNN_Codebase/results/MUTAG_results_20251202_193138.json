@@ -1,0 +1,80 @@
+{
+  "dataset": "MUTAG",
+  "timestamp": "20251202_193138",
+  "results": {
+    "f_relu_mean_L2_H128_D0.5_lr0.01": {
+      "config_name": "f_relu_mean_L2_H128_D0.5_lr0.01",
+      "model_params": "{'activation': 'relu', 'dropout': 0.5, 'hidden_dim': 128, 'layer_type': 'f', 'num_layers': 2, 'pooling': 'mean', 'input_dim': 7, 'output_dim': 2}",
+      "seed_results": [
+        {
+          "seed": 42,
+          "val_acc": 0.8947368421052632,
+          "test_acc": 0.8421052631578947,
+          "test_f1": 0.8246153846153845,
+          "best_epoch": 99,
+          "training_time": 4.817109107971191
+        },
+        {
+          "seed": 123,
+          "val_acc": 0.9473684210526315,
+          "test_acc": 0.8421052631578947,
+          "test_f1": 0.8080808080808081,
+          "best_epoch": 139,
+          "training_time": 5.465372800827026
+        },
+        {
+          "seed": 456,
+          "val_acc": 0.8947368421052632,
+          "test_acc": 0.7894736842105263,
+          "test_f1": 0.7564102564102564,
+          "best_epoch": 100,
+          "training_time": 4.3881072998046875
+        }
+      ],
+      "test_acc_mean": 0.8245614035087719,
+      "test_acc_std": 0.024810764252159535,
+      "test_f1_mean": 0.7963688163688163,
+      "test_f1_std": 0.029050105458968807,
+      "val_acc_mean": 0.912280701754386,
+      "val_acc_std": 0.024810764252159532,
+      "best_val_acc": 0.9473684210526315
+    },
+    "f_relu_sum_L2_H128_D0.5_lr0.01": {
+      "config_name": "f_relu_sum_L2_H128_D0.5_lr0.01",
+      "model_params": "{'activation': 'relu', 'dropout': 0.5, 'hidden_dim': 128, 'layer_type': 'f', 'num_layers': 2, 'pooling': 'sum', 'input_dim': 7, 'output_dim': 2}",
+      "seed_results": [
+        {
+          "seed": 42,
+          "val_acc": 0.7368421052631579,
+          "test_acc": 0.7368421052631579,
+          "test_f1": 0.5622119815668203,
+          "best_epoch": 9,
+          "training_time": 1.7079119682312012
+        },
+        {
+          "seed": 123,
+          "val_acc": 0.7368421052631579,
+          "test_acc": 0.8421052631578947,
+          "test_f1": 0.8246153846153845,
+          "best_epoch": 16,
+          "training_time": 1.8605213165283203
+        },
+        {
+          "seed": 456,
+          "val_acc": 0.6842105263157895,
+          "test_acc": 0.6842105263157895,
+          "test_f1": 0.40625000000000006,
+          "best_epoch": 1,
+          "training_time": 1.4463832378387451
+        }
+      ],
+      "test_acc_mean": 0.7543859649122807,
+      "test_acc_std": 0.06564311204866562,
+      "test_f1_mean": 0.5976924553940682,
+      "test_f1_std": 0.17262975173928194,
+      "val_acc_mean": 0.7192982456140351,
+      "val_acc_std": 0.024810764252159535,
+      "best_val_acc": 0.7368421052631579
+    }
+  }
+}

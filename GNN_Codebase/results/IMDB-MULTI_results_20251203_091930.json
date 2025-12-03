@@ -1,0 +1,1190 @@
+{
+  "dataset": "IMDB-MULTI",
+  "timestamp": "20251203_091930",
+  "results": {
+    "f_relu_mean_L2_H64_D0.5_lr0.01": {
+      "config_name": "f_relu_mean_L2_H64_D0.5_lr0.01",
+      "model_params": "{'activation': 'relu', 'dropout': 0.5, 'hidden_dim': 64, 'layer_type': 'f', 'num_layers': 2, 'pooling': 'mean', 'input_dim': 1, 'output_dim': 3}",
+      "seed_results": [
+        {
+          "seed": 42,
+          "val_acc": 0.36,
+          "test_acc": 0.38,
+          "test_f1": 0.25834431269213876,
+          "best_epoch": 50,
+          "training_time": 29.037956953048706
+        },
+        {
+          "seed": 123,
+          "val_acc": 0.35333333333333333,
+          "test_acc": 0.38666666666666666,
+          "test_f1": 0.2730158730158731,
+          "best_epoch": 1,
+          "training_time": 11.682372570037842
+        },
+        {
+          "seed": 456,
+          "val_acc": 0.46,
+          "test_acc": 0.4666666666666667,
+          "test_f1": 0.39728731953995994,
+          "best_epoch": 92,
+          "training_time": 32.9741370677948
+        }
+      ],
+      "test_acc_mean": 0.41111111111111115,
+      "test_acc_std": 0.03937787810370967,
+      "test_f1_mean": 0.3095491684159906,
+      "test_f1_std": 0.06232870415559006,
+      "val_acc_mean": 0.39111111111111113,
+      "val_acc_std": 0.04878777422244479,
+      "best_val_acc": 0.46
+    },
+    "f_relu_sum_L2_H64_D0.5_lr0.01": {
+      "config_name": "f_relu_sum_L2_H64_D0.5_lr0.01",
+      "model_params": "{'activation': 'relu', 'dropout': 0.5, 'hidden_dim': 64, 'layer_type': 'f', 'num_layers': 2, 'pooling': 'sum', 'input_dim': 1, 'output_dim': 3}",
+      "seed_results": [
+        {
+          "seed": 42,
+          "val_acc": 0.34,
+          "test_acc": 0.30666666666666664,
+          "test_f1": 0.15972222222222224,
+          "best_epoch": 1,
+          "training_time": 10.956286191940308
+        },
+        {
+          "seed": 123,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 2,
+          "training_time": 11.615872383117676
+        },
+        {
+          "seed": 456,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 1,
+          "training_time": 10.995974779129028
+        }
+      ],
+      "test_acc_mean": 0.32444444444444437,
+      "test_acc_std": 0.012570787221094181,
+      "test_f1_mean": 0.16435185185185186,
+      "test_f1_std": 0.0032736425054932642,
+      "val_acc_mean": 0.33555555555555555,
+      "val_acc_std": 0.003142696805273565,
+      "best_val_acc": 0.34
+    },
+    "f_relu_mean_L3_H64_D0.5_lr0.01": {
+      "config_name": "f_relu_mean_L3_H64_D0.5_lr0.01",
+      "model_params": "{'activation': 'relu', 'dropout': 0.5, 'hidden_dim': 64, 'layer_type': 'f', 'num_layers': 3, 'pooling': 'mean', 'input_dim': 1, 'output_dim': 3}",
+      "seed_results": [
+        {
+          "seed": 42,
+          "val_acc": 0.34,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16750418760469013,
+          "best_epoch": 47,
+          "training_time": 23.398956775665283
+        },
+        {
+          "seed": 123,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 1,
+          "training_time": 16.579998016357422
+        },
+        {
+          "seed": 456,
+          "val_acc": 0.34,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16750418760469013,
+          "best_epoch": 1,
+          "training_time": 15.86050796508789
+        }
+      ],
+      "test_acc_mean": 0.3333333333333333,
+      "test_acc_std": 0.0,
+      "test_f1_mean": 0.1672250139586823,
+      "test_f1_std": 0.0003948111564414105,
+      "val_acc_mean": 0.3377777777777778,
+      "val_acc_std": 0.003142696805273565,
+      "best_val_acc": 0.34
+    },
+    "f_relu_sum_L3_H64_D0.5_lr0.01": {
+      "config_name": "f_relu_sum_L3_H64_D0.5_lr0.01",
+      "model_params": "{'activation': 'relu', 'dropout': 0.5, 'hidden_dim': 64, 'layer_type': 'f', 'num_layers': 3, 'pooling': 'sum', 'input_dim': 1, 'output_dim': 3}",
+      "seed_results": [
+        {
+          "seed": 42,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 1,
+          "training_time": 14.649650573730469
+        },
+        {
+          "seed": 123,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 1,
+          "training_time": 15.644062519073486
+        },
+        {
+          "seed": 456,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 2,
+          "training_time": 12.558706045150757
+        }
+      ],
+      "test_acc_mean": 0.3333333333333333,
+      "test_acc_std": 0.0,
+      "test_f1_mean": 0.16666666666666666,
+      "test_f1_std": 0.0,
+      "val_acc_mean": 0.3333333333333333,
+      "val_acc_std": 0.0,
+      "best_val_acc": 0.3333333333333333
+    },
+    "g_relu_mean_L2_H64_D0.5_lr0.01": {
+      "config_name": "g_relu_mean_L2_H64_D0.5_lr0.01",
+      "model_params": "{'activation': 'relu', 'dropout': 0.5, 'hidden_dim': 64, 'layer_type': 'g', 'num_layers': 2, 'pooling': 'mean', 'input_dim': 1, 'output_dim': 3}",
+      "seed_results": [
+        {
+          "seed": 42,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 1,
+          "training_time": 12.390159845352173
+        },
+        {
+          "seed": 123,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 1,
+          "training_time": 15.123026847839355
+        },
+        {
+          "seed": 456,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 1,
+          "training_time": 19.99101209640503
+        }
+      ],
+      "test_acc_mean": 0.3333333333333333,
+      "test_acc_std": 0.0,
+      "test_f1_mean": 0.16666666666666666,
+      "test_f1_std": 0.0,
+      "val_acc_mean": 0.3333333333333333,
+      "val_acc_std": 0.0,
+      "best_val_acc": 0.3333333333333333
+    },
+    "g_relu_sum_L2_H64_D0.5_lr0.01": {
+      "config_name": "g_relu_sum_L2_H64_D0.5_lr0.01",
+      "model_params": "{'activation': 'relu', 'dropout': 0.5, 'hidden_dim': 64, 'layer_type': 'g', 'num_layers': 2, 'pooling': 'sum', 'input_dim': 1, 'output_dim': 3}",
+      "seed_results": [
+        {
+          "seed": 42,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 1,
+          "training_time": 22.319306135177612
+        },
+        {
+          "seed": 123,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 1,
+          "training_time": 20.09321641921997
+        },
+        {
+          "seed": 456,
+          "val_acc": 0.34,
+          "test_acc": 0.2866666666666667,
+          "test_f1": 0.2544578924739525,
+          "best_epoch": 25,
+          "training_time": 16.488927125930786
+        }
+      ],
+      "test_acc_mean": 0.31777777777777777,
+      "test_acc_std": 0.021998877636914795,
+      "test_f1_mean": 0.1959304086024286,
+      "test_f1_std": 0.041385180731340836,
+      "val_acc_mean": 0.33555555555555555,
+      "val_acc_std": 0.003142696805273565,
+      "best_val_acc": 0.34
+    },
+    "g_relu_mean_L3_H64_D0.5_lr0.01": {
+      "config_name": "g_relu_mean_L3_H64_D0.5_lr0.01",
+      "model_params": "{'activation': 'relu', 'dropout': 0.5, 'hidden_dim': 64, 'layer_type': 'g', 'num_layers': 3, 'pooling': 'mean', 'input_dim': 1, 'output_dim': 3}",
+      "seed_results": [
+        {
+          "seed": 42,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 1,
+          "training_time": 12.266347885131836
+        },
+        {
+          "seed": 123,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 1,
+          "training_time": 12.904004335403442
+        },
+        {
+          "seed": 456,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 1,
+          "training_time": 14.169683933258057
+        }
+      ],
+      "test_acc_mean": 0.3333333333333333,
+      "test_acc_std": 0.0,
+      "test_f1_mean": 0.16666666666666666,
+      "test_f1_std": 0.0,
+      "val_acc_mean": 0.3333333333333333,
+      "val_acc_std": 0.0,
+      "best_val_acc": 0.3333333333333333
+    },
+    "g_relu_sum_L3_H64_D0.5_lr0.01": {
+      "config_name": "g_relu_sum_L3_H64_D0.5_lr0.01",
+      "model_params": "{'activation': 'relu', 'dropout': 0.5, 'hidden_dim': 64, 'layer_type': 'g', 'num_layers': 3, 'pooling': 'sum', 'input_dim': 1, 'output_dim': 3}",
+      "seed_results": [
+        {
+          "seed": 42,
+          "val_acc": 0.36,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.19767720306513412,
+          "best_epoch": 3,
+          "training_time": 22.2407329082489
+        },
+        {
+          "seed": 123,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 1,
+          "training_time": 13.880053043365479
+        },
+        {
+          "seed": 456,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 1,
+          "training_time": 13.705172777175903
+        }
+      ],
+      "test_acc_mean": 0.3333333333333333,
+      "test_acc_std": 0.0,
+      "test_f1_mean": 0.17700351213282248,
+      "test_f1_std": 0.014618507050392398,
+      "val_acc_mean": 0.3422222222222222,
+      "val_acc_std": 0.012570787221094181,
+      "best_val_acc": 0.36
+    },
+    "f_relu_mean_L2_H128_D0.5_lr0.01": {
+      "config_name": "f_relu_mean_L2_H128_D0.5_lr0.01",
+      "model_params": "{'activation': 'relu', 'dropout': 0.5, 'hidden_dim': 128, 'layer_type': 'f', 'num_layers': 2, 'pooling': 'mean', 'input_dim': 1, 'output_dim': 3}",
+      "seed_results": [
+        {
+          "seed": 42,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 1,
+          "training_time": 12.739440202713013
+        },
+        {
+          "seed": 123,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 1,
+          "training_time": 12.916910886764526
+        },
+        {
+          "seed": 456,
+          "val_acc": 0.4066666666666667,
+          "test_acc": 0.41333333333333333,
+          "test_f1": 0.3324566467808498,
+          "best_epoch": 2,
+          "training_time": 13.222285032272339
+        }
+      ],
+      "test_acc_mean": 0.36000000000000004,
+      "test_acc_std": 0.03771236166328255,
+      "test_f1_mean": 0.22192999337139438,
+      "test_f1_std": 0.07815414612768118,
+      "val_acc_mean": 0.35777777777777775,
+      "val_acc_std": 0.034569664858009004,
+      "best_val_acc": 0.4066666666666667
+    },
+    "f_relu_sum_L2_H128_D0.5_lr0.01": {
+      "config_name": "f_relu_sum_L2_H128_D0.5_lr0.01",
+      "model_params": "{'activation': 'relu', 'dropout': 0.5, 'hidden_dim': 128, 'layer_type': 'f', 'num_layers': 2, 'pooling': 'sum', 'input_dim': 1, 'output_dim': 3}",
+      "seed_results": [
+        {
+          "seed": 42,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 1,
+          "training_time": 14.003499746322632
+        },
+        {
+          "seed": 123,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.32,
+          "test_f1": 0.26561015204307886,
+          "best_epoch": 1,
+          "training_time": 12.23844838142395
+        },
+        {
+          "seed": 456,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 1,
+          "training_time": 11.672305583953857
+        }
+      ],
+      "test_acc_mean": 0.32888888888888884,
+      "test_acc_std": 0.006285393610547077,
+      "test_f1_mean": 0.19964782845880405,
+      "test_f1_std": 0.046642406309262044,
+      "val_acc_mean": 0.3333333333333333,
+      "val_acc_std": 0.0,
+      "best_val_acc": 0.3333333333333333
+    },
+    "f_relu_mean_L3_H128_D0.5_lr0.01": {
+      "config_name": "f_relu_mean_L3_H128_D0.5_lr0.01",
+      "model_params": "{'activation': 'relu', 'dropout': 0.5, 'hidden_dim': 128, 'layer_type': 'f', 'num_layers': 3, 'pooling': 'mean', 'input_dim': 1, 'output_dim': 3}",
+      "seed_results": [
+        {
+          "seed": 42,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.32,
+          "test_f1": 0.16326530612244897,
+          "best_epoch": 1,
+          "training_time": 13.442307710647583
+        },
+        {
+          "seed": 123,
+          "val_acc": 0.35333333333333333,
+          "test_acc": 0.3466666666666667,
+          "test_f1": 0.1947593852355757,
+          "best_epoch": 4,
+          "training_time": 14.529916286468506
+        },
+        {
+          "seed": 456,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 3,
+          "training_time": 13.58570408821106
+        }
+      ],
+      "test_acc_mean": 0.3333333333333333,
+      "test_acc_std": 0.01088662107903635,
+      "test_f1_mean": 0.1748971193415638,
+      "test_f1_std": 0.014113221182547526,
+      "val_acc_mean": 0.34,
+      "val_acc_std": 0.009428090415820642,
+      "best_val_acc": 0.35333333333333333
+    },
+    "f_relu_sum_L3_H128_D0.5_lr0.01": {
+      "config_name": "f_relu_sum_L3_H128_D0.5_lr0.01",
+      "model_params": "{'activation': 'relu', 'dropout': 0.5, 'hidden_dim': 128, 'layer_type': 'f', 'num_layers': 3, 'pooling': 'sum', 'input_dim': 1, 'output_dim': 3}",
+      "seed_results": [
+        {
+          "seed": 42,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.32,
+          "test_f1": 0.1641025641025641,
+          "best_epoch": 1,
+          "training_time": 15.765688419342041
+        },
+        {
+          "seed": 123,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 1,
+          "training_time": 15.145052433013916
+        },
+        {
+          "seed": 456,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 2,
+          "training_time": 12.93527865409851
+        }
+      ],
+      "test_acc_mean": 0.32888888888888884,
+      "test_acc_std": 0.006285393610547077,
+      "test_f1_mean": 0.1658119658119658,
+      "test_f1_std": 0.0012087295404898204,
+      "val_acc_mean": 0.3333333333333333,
+      "val_acc_std": 0.0,
+      "best_val_acc": 0.3333333333333333
+    },
+    "g_relu_mean_L2_H128_D0.5_lr0.01": {
+      "config_name": "g_relu_mean_L2_H128_D0.5_lr0.01",
+      "model_params": "{'activation': 'relu', 'dropout': 0.5, 'hidden_dim': 128, 'layer_type': 'g', 'num_layers': 2, 'pooling': 'mean', 'input_dim': 1, 'output_dim': 3}",
+      "seed_results": [
+        {
+          "seed": 42,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 1,
+          "training_time": 15.224733591079712
+        },
+        {
+          "seed": 123,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 1,
+          "training_time": 13.891851425170898
+        },
+        {
+          "seed": 456,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 1,
+          "training_time": 17.067742586135864
+        }
+      ],
+      "test_acc_mean": 0.3333333333333333,
+      "test_acc_std": 0.0,
+      "test_f1_mean": 0.16666666666666666,
+      "test_f1_std": 0.0,
+      "val_acc_mean": 0.3333333333333333,
+      "val_acc_std": 0.0,
+      "best_val_acc": 0.3333333333333333
+    },
+    "g_relu_sum_L2_H128_D0.5_lr0.01": {
+      "config_name": "g_relu_sum_L2_H128_D0.5_lr0.01",
+      "model_params": "{'activation': 'relu', 'dropout': 0.5, 'hidden_dim': 128, 'layer_type': 'g', 'num_layers': 2, 'pooling': 'sum', 'input_dim': 1, 'output_dim': 3}",
+      "seed_results": [
+        {
+          "seed": 42,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 1,
+          "training_time": 13.974992990493774
+        },
+        {
+          "seed": 123,
+          "val_acc": 0.34,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.1982456140350877,
+          "best_epoch": 37,
+          "training_time": 23.19914960861206
+        },
+        {
+          "seed": 456,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 1,
+          "training_time": 11.48518443107605
+        }
+      ],
+      "test_acc_mean": 0.3333333333333333,
+      "test_acc_std": 0.0,
+      "test_f1_mean": 0.17719298245614035,
+      "test_f1_std": 0.014886458551295731,
+      "val_acc_mean": 0.33555555555555555,
+      "val_acc_std": 0.003142696805273565,
+      "best_val_acc": 0.34
+    },
+    "g_relu_mean_L3_H128_D0.5_lr0.01": {
+      "config_name": "g_relu_mean_L3_H128_D0.5_lr0.01",
+      "model_params": "{'activation': 'relu', 'dropout': 0.5, 'hidden_dim': 128, 'layer_type': 'g', 'num_layers': 3, 'pooling': 'mean', 'input_dim': 1, 'output_dim': 3}",
+      "seed_results": [
+        {
+          "seed": 42,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 1,
+          "training_time": 11.99204707145691
+        },
+        {
+          "seed": 123,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 1,
+          "training_time": 12.193418502807617
+        },
+        {
+          "seed": 456,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 1,
+          "training_time": 12.31638216972351
+        }
+      ],
+      "test_acc_mean": 0.3333333333333333,
+      "test_acc_std": 0.0,
+      "test_f1_mean": 0.16666666666666666,
+      "test_f1_std": 0.0,
+      "val_acc_mean": 0.3333333333333333,
+      "val_acc_std": 0.0,
+      "best_val_acc": 0.3333333333333333
+    },
+    "g_relu_sum_L3_H128_D0.5_lr0.01": {
+      "config_name": "g_relu_sum_L3_H128_D0.5_lr0.01",
+      "model_params": "{'activation': 'relu', 'dropout': 0.5, 'hidden_dim': 128, 'layer_type': 'g', 'num_layers': 3, 'pooling': 'sum', 'input_dim': 1, 'output_dim': 3}",
+      "seed_results": [
+        {
+          "seed": 42,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 2,
+          "training_time": 12.094888925552368
+        },
+        {
+          "seed": 123,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 1,
+          "training_time": 11.381346702575684
+        },
+        {
+          "seed": 456,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 1,
+          "training_time": 11.82620882987976
+        }
+      ],
+      "test_acc_mean": 0.3333333333333333,
+      "test_acc_std": 0.0,
+      "test_f1_mean": 0.16666666666666666,
+      "test_f1_std": 0.0,
+      "val_acc_mean": 0.3333333333333333,
+      "val_acc_std": 0.0,
+      "best_val_acc": 0.3333333333333333
+    },
+    "f_tanh_mean_L2_H64_D0.5_lr0.01": {
+      "config_name": "f_tanh_mean_L2_H64_D0.5_lr0.01",
+      "model_params": "{'activation': 'tanh', 'dropout': 0.5, 'hidden_dim': 64, 'layer_type': 'f', 'num_layers': 2, 'pooling': 'mean', 'input_dim': 1, 'output_dim': 3}",
+      "seed_results": [
+        {
+          "seed": 42,
+          "val_acc": 0.48,
+          "test_acc": 0.44,
+          "test_f1": 0.41089917929760816,
+          "best_epoch": 28,
+          "training_time": 16.550549745559692
+        },
+        {
+          "seed": 123,
+          "val_acc": 0.48,
+          "test_acc": 0.5066666666666667,
+          "test_f1": 0.4670498135440864,
+          "best_epoch": 33,
+          "training_time": 19.48329782485962
+        },
+        {
+          "seed": 456,
+          "val_acc": 0.46,
+          "test_acc": 0.48,
+          "test_f1": 0.40614299980504737,
+          "best_epoch": 12,
+          "training_time": 15.63368010520935
+        }
+      ],
+      "test_acc_mean": 0.47555555555555556,
+      "test_acc_std": 0.02739739556875102,
+      "test_f1_mean": 0.42803066421558067,
+      "test_f1_std": 0.02765894456387829,
+      "val_acc_mean": 0.47333333333333333,
+      "val_acc_std": 0.009428090415820616,
+      "best_val_acc": 0.48
+    },
+    "f_tanh_sum_L2_H64_D0.5_lr0.01": {
+      "config_name": "f_tanh_sum_L2_H64_D0.5_lr0.01",
+      "model_params": "{'activation': 'tanh', 'dropout': 0.5, 'hidden_dim': 64, 'layer_type': 'f', 'num_layers': 2, 'pooling': 'sum', 'input_dim': 1, 'output_dim': 3}",
+      "seed_results": [
+        {
+          "seed": 42,
+          "val_acc": 0.44666666666666666,
+          "test_acc": 0.48,
+          "test_f1": 0.38345587437916145,
+          "best_epoch": 78,
+          "training_time": 30.90934181213379
+        },
+        {
+          "seed": 123,
+          "val_acc": 0.4666666666666667,
+          "test_acc": 0.44666666666666666,
+          "test_f1": 0.4198589038688459,
+          "best_epoch": 23,
+          "training_time": 20.55887794494629
+        },
+        {
+          "seed": 456,
+          "val_acc": 0.4666666666666667,
+          "test_acc": 0.43333333333333335,
+          "test_f1": 0.34953688640159647,
+          "best_epoch": 81,
+          "training_time": 36.560534954071045
+        }
+      ],
+      "test_acc_mean": 0.4533333333333333,
+      "test_acc_std": 0.019626135258506316,
+      "test_f1_mean": 0.38428388821653464,
+      "test_f1_std": 0.028714813138311198,
+      "val_acc_mean": 0.45999999999999996,
+      "val_acc_std": 0.009428090415820642,
+      "best_val_acc": 0.4666666666666667
+    },
+    "f_tanh_mean_L3_H64_D0.5_lr0.01": {
+      "config_name": "f_tanh_mean_L3_H64_D0.5_lr0.01",
+      "model_params": "{'activation': 'tanh', 'dropout': 0.5, 'hidden_dim': 64, 'layer_type': 'f', 'num_layers': 3, 'pooling': 'mean', 'input_dim': 1, 'output_dim': 3}",
+      "seed_results": [
+        {
+          "seed": 42,
+          "val_acc": 0.43333333333333335,
+          "test_acc": 0.41333333333333333,
+          "test_f1": 0.3311688311688311,
+          "best_epoch": 80,
+          "training_time": 31.586538553237915
+        },
+        {
+          "seed": 123,
+          "val_acc": 0.4266666666666667,
+          "test_acc": 0.46,
+          "test_f1": 0.3685458377239199,
+          "best_epoch": 57,
+          "training_time": 22.956556797027588
+        },
+        {
+          "seed": 456,
+          "val_acc": 0.35333333333333333,
+          "test_acc": 0.36666666666666664,
+          "test_f1": 0.23814229249011856,
+          "best_epoch": 48,
+          "training_time": 21.266175270080566
+        }
+      ],
+      "test_acc_mean": 0.41333333333333333,
+      "test_acc_std": 0.03810317377662723,
+      "test_f1_mean": 0.3126189871276232,
+      "test_f1_std": 0.05482909013684172,
+      "val_acc_mean": 0.40444444444444444,
+      "val_acc_std": 0.0362433476228891,
+      "best_val_acc": 0.43333333333333335
+    },
+    "f_tanh_sum_L3_H64_D0.5_lr0.01": {
+      "config_name": "f_tanh_sum_L3_H64_D0.5_lr0.01",
+      "model_params": "{'activation': 'tanh', 'dropout': 0.5, 'hidden_dim': 64, 'layer_type': 'f', 'num_layers': 3, 'pooling': 'sum', 'input_dim': 1, 'output_dim': 3}",
+      "seed_results": [
+        {
+          "seed": 42,
+          "val_acc": 0.44666666666666666,
+          "test_acc": 0.44,
+          "test_f1": 0.4076590697280352,
+          "best_epoch": 12,
+          "training_time": 13.081060409545898
+        },
+        {
+          "seed": 123,
+          "val_acc": 0.44666666666666666,
+          "test_acc": 0.4533333333333333,
+          "test_f1": 0.39188119755911516,
+          "best_epoch": 44,
+          "training_time": 19.319398641586304
+        },
+        {
+          "seed": 456,
+          "val_acc": 0.47333333333333333,
+          "test_acc": 0.4533333333333333,
+          "test_f1": 0.4322253653936823,
+          "best_epoch": 59,
+          "training_time": 24.606907844543457
+        }
+      ],
+      "test_acc_mean": 0.4488888888888889,
+      "test_acc_std": 0.0062853936105470775,
+      "test_f1_mean": 0.4105885442269442,
+      "test_f1_std": 0.01660018745267151,
+      "val_acc_mean": 0.45555555555555555,
+      "val_acc_std": 0.012570787221094181,
+      "best_val_acc": 0.47333333333333333
+    },
+    "g_tanh_mean_L2_H64_D0.5_lr0.01": {
+      "config_name": "g_tanh_mean_L2_H64_D0.5_lr0.01",
+      "model_params": "{'activation': 'tanh', 'dropout': 0.5, 'hidden_dim': 64, 'layer_type': 'g', 'num_layers': 2, 'pooling': 'mean', 'input_dim': 1, 'output_dim': 3}",
+      "seed_results": [
+        {
+          "seed": 42,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 1,
+          "training_time": 11.10686707496643
+        },
+        {
+          "seed": 123,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 1,
+          "training_time": 10.594438552856445
+        },
+        {
+          "seed": 456,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 1,
+          "training_time": 10.781086921691895
+        }
+      ],
+      "test_acc_mean": 0.3333333333333333,
+      "test_acc_std": 0.0,
+      "test_f1_mean": 0.16666666666666666,
+      "test_f1_std": 0.0,
+      "val_acc_mean": 0.3333333333333333,
+      "val_acc_std": 0.0,
+      "best_val_acc": 0.3333333333333333
+    },
+    "g_tanh_sum_L2_H64_D0.5_lr0.01": {
+      "config_name": "g_tanh_sum_L2_H64_D0.5_lr0.01",
+      "model_params": "{'activation': 'tanh', 'dropout': 0.5, 'hidden_dim': 64, 'layer_type': 'g', 'num_layers': 2, 'pooling': 'sum', 'input_dim': 1, 'output_dim': 3}",
+      "seed_results": [
+        {
+          "seed": 42,
+          "val_acc": 0.36,
+          "test_acc": 0.3466666666666667,
+          "test_f1": 0.22748493336728628,
+          "best_epoch": 54,
+          "training_time": 24.50437331199646
+        },
+        {
+          "seed": 123,
+          "val_acc": 0.36,
+          "test_acc": 0.3466666666666667,
+          "test_f1": 0.22748493336728628,
+          "best_epoch": 30,
+          "training_time": 17.32226276397705
+        },
+        {
+          "seed": 456,
+          "val_acc": 0.36,
+          "test_acc": 0.32666666666666666,
+          "test_f1": 0.19473684210526318,
+          "best_epoch": 16,
+          "training_time": 14.925328016281128
+        }
+      ],
+      "test_acc_mean": 0.34,
+      "test_acc_std": 0.009428090415820642,
+      "test_f1_mean": 0.2165689029466119,
+      "test_f1_std": 0.015437598268194973,
+      "val_acc_mean": 0.36000000000000004,
+      "val_acc_std": 5.551115123125783e-17,
+      "best_val_acc": 0.36
+    },
+    "g_tanh_mean_L3_H64_D0.5_lr0.01": {
+      "config_name": "g_tanh_mean_L3_H64_D0.5_lr0.01",
+      "model_params": "{'activation': 'tanh', 'dropout': 0.5, 'hidden_dim': 64, 'layer_type': 'g', 'num_layers': 3, 'pooling': 'mean', 'input_dim': 1, 'output_dim': 3}",
+      "seed_results": [
+        {
+          "seed": 42,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 1,
+          "training_time": 15.235787868499756
+        },
+        {
+          "seed": 123,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 1,
+          "training_time": 11.601308584213257
+        },
+        {
+          "seed": 456,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 1,
+          "training_time": 11.714599370956421
+        }
+      ],
+      "test_acc_mean": 0.3333333333333333,
+      "test_acc_std": 0.0,
+      "test_f1_mean": 0.16666666666666666,
+      "test_f1_std": 0.0,
+      "val_acc_mean": 0.3333333333333333,
+      "val_acc_std": 0.0,
+      "best_val_acc": 0.3333333333333333
+    },
+    "g_tanh_sum_L3_H64_D0.5_lr0.01": {
+      "config_name": "g_tanh_sum_L3_H64_D0.5_lr0.01",
+      "model_params": "{'activation': 'tanh', 'dropout': 0.5, 'hidden_dim': 64, 'layer_type': 'g', 'num_layers': 3, 'pooling': 'sum', 'input_dim': 1, 'output_dim': 3}",
+      "seed_results": [
+        {
+          "seed": 42,
+          "val_acc": 0.36,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.19828216374269006,
+          "best_epoch": 29,
+          "training_time": 22.826865673065186
+        },
+        {
+          "seed": 123,
+          "val_acc": 0.35333333333333333,
+          "test_acc": 0.37333333333333335,
+          "test_f1": 0.28519249032069544,
+          "best_epoch": 18,
+          "training_time": 21.831337928771973
+        },
+        {
+          "seed": 456,
+          "val_acc": 0.36,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.1974365966730297,
+          "best_epoch": 7,
+          "training_time": 19.745445489883423
+        }
+      ],
+      "test_acc_mean": 0.3466666666666667,
+      "test_acc_std": 0.018856180831641284,
+      "test_f1_mean": 0.2269704169121384,
+      "test_f1_std": 0.041170670141990454,
+      "val_acc_mean": 0.35777777777777775,
+      "val_acc_std": 0.0031426968052735383,
+      "best_val_acc": 0.36
+    },
+    "f_tanh_mean_L2_H128_D0.5_lr0.01": {
+      "config_name": "f_tanh_mean_L2_H128_D0.5_lr0.01",
+      "model_params": "{'activation': 'tanh', 'dropout': 0.5, 'hidden_dim': 128, 'layer_type': 'f', 'num_layers': 2, 'pooling': 'mean', 'input_dim': 1, 'output_dim': 3}",
+      "seed_results": [
+        {
+          "seed": 42,
+          "val_acc": 0.3933333333333333,
+          "test_acc": 0.4066666666666667,
+          "test_f1": 0.3134535367545076,
+          "best_epoch": 44,
+          "training_time": 25.915058135986328
+        },
+        {
+          "seed": 123,
+          "val_acc": 0.38,
+          "test_acc": 0.3466666666666667,
+          "test_f1": 0.22763669640814457,
+          "best_epoch": 12,
+          "training_time": 17.895423889160156
+        },
+        {
+          "seed": 456,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 1,
+          "training_time": 16.728039979934692
+        }
+      ],
+      "test_acc_mean": 0.3622222222222222,
+      "test_acc_std": 0.031894889098682946,
+      "test_f1_mean": 0.23591896660977293,
+      "test_f1_std": 0.06021098076661078,
+      "val_acc_mean": 0.3688888888888889,
+      "val_acc_std": 0.0257240820062005,
+      "best_val_acc": 0.3933333333333333
+    },
+    "f_tanh_sum_L2_H128_D0.5_lr0.01": {
+      "config_name": "f_tanh_sum_L2_H128_D0.5_lr0.01",
+      "model_params": "{'activation': 'tanh', 'dropout': 0.5, 'hidden_dim': 128, 'layer_type': 'f', 'num_layers': 2, 'pooling': 'sum', 'input_dim': 1, 'output_dim': 3}",
+      "seed_results": [
+        {
+          "seed": 42,
+          "val_acc": 0.38,
+          "test_acc": 0.32,
+          "test_f1": 0.25640368852459017,
+          "best_epoch": 20,
+          "training_time": 25.561763763427734
+        },
+        {
+          "seed": 123,
+          "val_acc": 0.44666666666666666,
+          "test_acc": 0.4266666666666667,
+          "test_f1": 0.3444444444444445,
+          "best_epoch": 31,
+          "training_time": 29.81111240386963
+        },
+        {
+          "seed": 456,
+          "val_acc": 0.36,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.1974365966730297,
+          "best_epoch": 63,
+          "training_time": 37.37986087799072
+        }
+      ],
+      "test_acc_mean": 0.36000000000000004,
+      "test_acc_std": 0.047453681120139174,
+      "test_f1_mean": 0.2660949098806881,
+      "test_f1_std": 0.060405665601418176,
+      "val_acc_mean": 0.3955555555555555,
+      "val_acc_std": 0.03705184889007348,
+      "best_val_acc": 0.44666666666666666
+    },
+    "f_tanh_mean_L3_H128_D0.5_lr0.01": {
+      "config_name": "f_tanh_mean_L3_H128_D0.5_lr0.01",
+      "model_params": "{'activation': 'tanh', 'dropout': 0.5, 'hidden_dim': 128, 'layer_type': 'f', 'num_layers': 3, 'pooling': 'mean', 'input_dim': 1, 'output_dim': 3}",
+      "seed_results": [
+        {
+          "seed": 42,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 1,
+          "training_time": 11.526559114456177
+        },
+        {
+          "seed": 123,
+          "val_acc": 0.34,
+          "test_acc": 0.35333333333333333,
+          "test_f1": 0.22397660818713447,
+          "best_epoch": 6,
+          "training_time": 12.55481505393982
+        },
+        {
+          "seed": 456,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 1,
+          "training_time": 11.198391675949097
+        }
+      ],
+      "test_acc_mean": 0.34,
+      "test_acc_std": 0.009428090415820642,
+      "test_f1_mean": 0.18576998050682259,
+      "test_f1_std": 0.02701616551901818,
+      "val_acc_mean": 0.33555555555555555,
+      "val_acc_std": 0.003142696805273565,
+      "best_val_acc": 0.34
+    },
+    "f_tanh_sum_L3_H128_D0.5_lr0.01": {
+      "config_name": "f_tanh_sum_L3_H128_D0.5_lr0.01",
+      "model_params": "{'activation': 'tanh', 'dropout': 0.5, 'hidden_dim': 128, 'layer_type': 'f', 'num_layers': 3, 'pooling': 'sum', 'input_dim': 1, 'output_dim': 3}",
+      "seed_results": [
+        {
+          "seed": 42,
+          "val_acc": 0.41333333333333333,
+          "test_acc": 0.36666666666666664,
+          "test_f1": 0.26440329218106995,
+          "best_epoch": 13,
+          "training_time": 13.722998142242432
+        },
+        {
+          "seed": 123,
+          "val_acc": 0.44666666666666666,
+          "test_acc": 0.47333333333333333,
+          "test_f1": 0.37682286603149917,
+          "best_epoch": 106,
+          "training_time": 33.47923946380615
+        },
+        {
+          "seed": 456,
+          "val_acc": 0.35333333333333333,
+          "test_acc": 0.30666666666666664,
+          "test_f1": 0.2337962962962963,
+          "best_epoch": 17,
+          "training_time": 13.962477445602417
+        }
+      ],
+      "test_acc_mean": 0.3822222222222222,
+      "test_acc_std": 0.0689247218634259,
+      "test_f1_mean": 0.2916741515029551,
+      "test_f1_std": 0.06149213900258716,
+      "val_acc_mean": 0.40444444444444444,
+      "val_acc_std": 0.03861810488218392,
+      "best_val_acc": 0.44666666666666666
+    },
+    "g_tanh_mean_L2_H128_D0.5_lr0.01": {
+      "config_name": "g_tanh_mean_L2_H128_D0.5_lr0.01",
+      "model_params": "{'activation': 'tanh', 'dropout': 0.5, 'hidden_dim': 128, 'layer_type': 'g', 'num_layers': 2, 'pooling': 'mean', 'input_dim': 1, 'output_dim': 3}",
+      "seed_results": [
+        {
+          "seed": 42,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 1,
+          "training_time": 10.730767011642456
+        },
+        {
+          "seed": 123,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 1,
+          "training_time": 10.958826303482056
+        },
+        {
+          "seed": 456,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 1,
+          "training_time": 10.740432739257812
+        }
+      ],
+      "test_acc_mean": 0.3333333333333333,
+      "test_acc_std": 0.0,
+      "test_f1_mean": 0.16666666666666666,
+      "test_f1_std": 0.0,
+      "val_acc_mean": 0.3333333333333333,
+      "val_acc_std": 0.0,
+      "best_val_acc": 0.3333333333333333
+    },
+    "g_tanh_sum_L2_H128_D0.5_lr0.01": {
+      "config_name": "g_tanh_sum_L2_H128_D0.5_lr0.01",
+      "model_params": "{'activation': 'tanh', 'dropout': 0.5, 'hidden_dim': 128, 'layer_type': 'g', 'num_layers': 2, 'pooling': 'sum', 'input_dim': 1, 'output_dim': 3}",
+      "seed_results": [
+        {
+          "seed": 42,
+          "val_acc": 0.36,
+          "test_acc": 0.3466666666666667,
+          "test_f1": 0.22748493336728628,
+          "best_epoch": 28,
+          "training_time": 16.295776844024658
+        },
+        {
+          "seed": 123,
+          "val_acc": 0.36,
+          "test_acc": 0.32666666666666666,
+          "test_f1": 0.19473684210526318,
+          "best_epoch": 22,
+          "training_time": 14.757051706314087
+        },
+        {
+          "seed": 456,
+          "val_acc": 0.36,
+          "test_acc": 0.3466666666666667,
+          "test_f1": 0.22748493336728628,
+          "best_epoch": 39,
+          "training_time": 18.54946279525757
+        }
+      ],
+      "test_acc_mean": 0.34,
+      "test_acc_std": 0.009428090415820642,
+      "test_f1_mean": 0.2165689029466119,
+      "test_f1_std": 0.015437598268194973,
+      "val_acc_mean": 0.36000000000000004,
+      "val_acc_std": 5.551115123125783e-17,
+      "best_val_acc": 0.36
+    },
+    "g_tanh_mean_L3_H128_D0.5_lr0.01": {
+      "config_name": "g_tanh_mean_L3_H128_D0.5_lr0.01",
+      "model_params": "{'activation': 'tanh', 'dropout': 0.5, 'hidden_dim': 128, 'layer_type': 'g', 'num_layers': 3, 'pooling': 'mean', 'input_dim': 1, 'output_dim': 3}",
+      "seed_results": [
+        {
+          "seed": 42,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 1,
+          "training_time": 11.790958404541016
+        },
+        {
+          "seed": 123,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 1,
+          "training_time": 12.911569118499756
+        },
+        {
+          "seed": 456,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 1,
+          "training_time": 12.471101760864258
+        }
+      ],
+      "test_acc_mean": 0.3333333333333333,
+      "test_acc_std": 0.0,
+      "test_f1_mean": 0.16666666666666666,
+      "test_f1_std": 0.0,
+      "val_acc_mean": 0.3333333333333333,
+      "val_acc_std": 0.0,
+      "best_val_acc": 0.3333333333333333
+    },
+    "g_tanh_sum_L3_H128_D0.5_lr0.01": {
+      "config_name": "g_tanh_sum_L3_H128_D0.5_lr0.01",
+      "model_params": "{'activation': 'tanh', 'dropout': 0.5, 'hidden_dim': 128, 'layer_type': 'g', 'num_layers': 3, 'pooling': 'sum', 'input_dim': 1, 'output_dim': 3}",
+      "seed_results": [
+        {
+          "seed": 42,
+          "val_acc": 0.35333333333333333,
+          "test_acc": 0.32666666666666666,
+          "test_f1": 0.19473684210526318,
+          "best_epoch": 6,
+          "training_time": 14.722658395767212
+        },
+        {
+          "seed": 123,
+          "val_acc": 0.36,
+          "test_acc": 0.3466666666666667,
+          "test_f1": 0.22748493336728628,
+          "best_epoch": 49,
+          "training_time": 37.83089995384216
+        },
+        {
+          "seed": 456,
+          "val_acc": 0.35333333333333333,
+          "test_acc": 0.34,
+          "test_f1": 0.22994318027349592,
+          "best_epoch": 61,
+          "training_time": 31.116928815841675
+        }
+      ],
+      "test_acc_mean": 0.3377777777777778,
+      "test_acc_std": 0.00831479419283099,
+      "test_f1_mean": 0.21738831858201513,
+      "test_f1_std": 0.016048422235962582,
+      "val_acc_mean": 0.35555555555555557,
+      "val_acc_std": 0.0031426968052735383,
+      "best_val_acc": 0.36
+    }
+  }
+}

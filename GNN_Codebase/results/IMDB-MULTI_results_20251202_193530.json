@@ -1,0 +1,80 @@
+{
+  "dataset": "IMDB-MULTI",
+  "timestamp": "20251202_193530",
+  "results": {
+    "f_relu_mean_L3_H64_D0.5_lr0.01": {
+      "config_name": "f_relu_mean_L3_H64_D0.5_lr0.01",
+      "model_params": "{'activation': 'relu', 'dropout': 0.5, 'hidden_dim': 64, 'layer_type': 'f', 'num_layers': 3, 'pooling': 'mean', 'input_dim': 1, 'output_dim': 3}",
+      "seed_results": [
+        {
+          "seed": 42,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 1,
+          "training_time": 13.702987670898438
+        },
+        {
+          "seed": 123,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 1,
+          "training_time": 12.552736759185791
+        },
+        {
+          "seed": 456,
+          "val_acc": 0.34,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16750418760469013,
+          "best_epoch": 1,
+          "training_time": 11.81332540512085
+        }
+      ],
+      "test_acc_mean": 0.3333333333333333,
+      "test_acc_std": 0.0,
+      "test_f1_mean": 0.16694584031267448,
+      "test_f1_std": 0.0003948111564414105,
+      "val_acc_mean": 0.33555555555555555,
+      "val_acc_std": 0.003142696805273565,
+      "best_val_acc": 0.34
+    },
+    "f_relu_mean_L2_H64_D0.5_lr0.01": {
+      "config_name": "f_relu_mean_L2_H64_D0.5_lr0.01",
+      "model_params": "{'activation': 'relu', 'dropout': 0.5, 'hidden_dim': 64, 'layer_type': 'f', 'num_layers': 2, 'pooling': 'mean', 'input_dim': 1, 'output_dim': 3}",
+      "seed_results": [
+        {
+          "seed": 42,
+          "val_acc": 0.3333333333333333,
+          "test_acc": 0.3333333333333333,
+          "test_f1": 0.16666666666666666,
+          "best_epoch": 3,
+          "training_time": 11.609633445739746
+        },
+        {
+          "seed": 123,
+          "val_acc": 0.35333333333333333,
+          "test_acc": 0.38666666666666666,
+          "test_f1": 0.2730158730158731,
+          "best_epoch": 1,
+          "training_time": 11.230709552764893
+        },
+        {
+          "seed": 456,
+          "val_acc": 0.4266666666666667,
+          "test_acc": 0.48,
+          "test_f1": 0.382591442374051,
+          "best_epoch": 22,
+          "training_time": 15.5611412525177
+        }
+      ],
+      "test_acc_mean": 0.39999999999999997,
+      "test_acc_std": 0.06061414087549269,
+      "test_f1_mean": 0.27409132735219693,
+      "test_f1_std": 0.08815420066600418,
+      "val_acc_mean": 0.3711111111111111,
+      "val_acc_std": 0.04012326685615066,
+      "best_val_acc": 0.4266666666666667
+    }
+  }
+}
